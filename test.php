@@ -16,6 +16,6 @@ $query = "select * from news_picture";
 $data = mysql_query($query); //query ข้อมูล
 while($show = mysql_fetch_array($data)){
 echo $show[0]." ".$show[1]." ".$show[2]."
-"; //โชว์ข้อมูล
+"; // โชว์ข้อมูล
 }
 ?>
