@@ -1,5 +1,14 @@
 <?php
-$content = file_get_contents("http://192.168.43.3/readDataSpashoeTemp.php");
-echo ($content, ["online"]);
-}
+$servername = "localhost";
+$username = "spaShoes";
+$password = "password";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
 ?>
