@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "dw_test";
+$username = "id4993088_dw_test";
 $password = "123456";
 
 // Create connection
