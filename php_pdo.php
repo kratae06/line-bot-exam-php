@@ -1,7 +1,7 @@
 <?php
 
 	$HOST_NAME = " localhost";
-	$DB_NAME = "book";
+	$DB_NAME = "id4993088_php_pdo";
 	$CHAR_SET = "charset=utf8"; // เช็ตให้อ่านภาษาไทยได้
 
 	$USERNAME = "id4993088_php";     // ตั้งค่าตามการใช้งานจริง
