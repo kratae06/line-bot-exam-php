@@ -1,11 +1,11 @@
 <?php
 
-	$HOST_NAME = "databases.000webhost.com";
-	$DB_NAME = "id4993088_php_pdo";
+	$HOST_NAME = "localhost";
+	$DB_NAME = "php_pdo";
 	$CHAR_SET = "charset=utf8"; // เช็ตให้อ่านภาษาไทยได้
 
-	$USERNAME = "id4993088_php";     // ตั้งค่าตามการใช้งานจริง
-	$PASSWORD = "password";  // ตั้งค่าตามการใช้งานจริง
+	$USERNAME = "root";     // ตั้งค่าตามการใช้งานจริง
+	$PASSWORD = "";  // ตั้งค่าตามการใช้งานจริง
 
 
 	try {
