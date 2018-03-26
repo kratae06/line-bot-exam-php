@@ -1,6 +1,6 @@
 <?php
 
-	$HOST_NAME = "localhost";
+	$HOST_NAME = "127.0.0.1";
 	$DB_NAME = "php_pdo";
 	$CHAR_SET = "charset=utf8"; // เช็ตให้อ่านภาษาไทยได้
 
